@@ -1,0 +1,7 @@
+#!/bin/bash
+# set -x
+
+echo "Building..."
+bundle exec jekyll build
+echo "Syncing..."
+rsync -varz _site/ aodisc@aodisc.org:/home/aodisc/aodisc.org/public/ --delete

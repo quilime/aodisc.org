@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta property="og:title" content="Archive of Discoveries" />
+      <meta property="og:description" content="Archive of Discoveries" />
+      <meta property="og:image" content="{{ site.url }}/static/aod-logo.png" />      
+      <link rel="icon" href="{{ site.url }}/favicon.svg">
+      {% assign ts = 'now' | date: "%s" %}
+      <title>{{ site.title }}{% if page.title != 'index' %} &gt; {{ page.title | downcase }}{% endif %}</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, 
+user-scalable=no">      
+      <link rel="stylesheet" href="{{ site.url }}/css/style.css?t={{ ts }}">
+      <link rel="alternate" type="application/rss+xml" title="{{ site.name }} rss feed" href="/feed.xml"/>
+  </head>
+  <body>
+
+  <div id="root">
+    {{ content }}
+  </div>
+
+  <div id="footer">
+    {% include footer.html %}
+  </div>
+
+  </body>
+</html>

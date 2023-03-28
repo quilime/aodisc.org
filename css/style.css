@@ -1,0 +1,200 @@
+:root {
+}
+
+html {
+    height: 100%;
+    background: linear-gradient(180deg, rgba(202, 200, 194, 1) 0%, rgba(183, 179, 165, 1) 100%);
+    background: rgba(183, 179, 165, 1);
+    background-repeat: no-repeat;
+}
+
+body {
+    color: rgb(46, 46, 40);
+    font-family: serif;
+    font-size: 1.1em;
+}
+
+#root {
+    max-width: 700px;
+    margin: 2em auto;
+    padding: 1em;
+}
+
+#footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#footer .copy {
+    font-size: 0.85em;
+}
+
+#nav {
+    display: inline-block;
+    padding-bottom: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color:#FBF6D8;
+}
+h2, h3, h4, h5 {
+    border-bottom:1px solid #FBF6D8;
+}
+h2 {
+    margin-top: 2em;
+}
+
+a {
+    color: #FBF6D8;
+}
+
+p {
+    max-width: 700px;
+    margin: 1em auto;
+    line-height: 1.4em;
+    text-align: left;
+}
+
+.aod-logo {
+    margin: 0 auto 1em auto;
+    max-width: 300px;
+    max-height: 300px;
+    transform: scale(1.0, 1.0);
+}
+
+.svg-clip div {
+    -webkit-clip-path: url(#aod-logo);
+    clip-path: url(#aod-logo);
+}
+
+.svg-defs {
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+
+.aod-logo-path {
+    width: 200px;
+    height: 200px;
+}
+
+.aod_logo {
+    background: #f0f;
+    height: 300px;
+    width: 300px;
+}
+
+.grad1 {
+    background: linear-gradient(-80deg, #B4939B, #B9979D, #AD9B6C, #FFFFEC, #A89763, #9C9A9E, #C7945E, #ffffff, #DCCD72, #9B8F9D);
+    background-size: 1600% 1600%;
+}
+
+.anim {
+    -webkit-animation: AnimationName 33s ease infinite;
+    -moz-animation: AnimationName 33s ease infinite;
+    animation: AnimationName 33s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
+
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
+
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 99% 0%
+    }
+
+    50% {
+        background-position: 2% 100%
+    }
+
+    100% {
+        background-position: 99% 0%
+    }
+
+}
+
+.video-player {
+    max-width: 100%;
+    margin: 2em 0;
+}
+
+.video-player img {
+    width: 100%;
+}
+
+div.nav, button.nav, a.nav {
+    font-family: serif;
+    cursor: pointer;
+    font-size: 18px;
+    border: 0;
+    display: inline-block;
+    color: #fff;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+    border-radius: 2em;
+    transition: opacity 250ms;
+    line-height: 1.25em;
+}
+
+div.nav:hover, button.nav:hover, a.nav:hover {
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+}
+
+.btn-hover {
+    display:inline-block;
+    font-size: 18px;
+    font-family: serif;
+    padding: 0.5em 2em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-size: 300% 100%;
+    border-radius: 2em;
+    background: #FBF6D8;
+    border: 3px solid;
+    color: #222;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -webkit-transition: all .2s ease--out;
+    transition: all .2s ease-out;
+    color: #CAA24F;
+    border-color: rgb(240, 234, 217);
+}
+
+.btn-hover:focus {
+    outline: none;
+}

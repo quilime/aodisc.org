@@ -1,0 +1,22 @@
+title: Archive of Discoveries
+email: contact@aodisc.org
+description: >- # this means to ignore newlines until "baseurl:"
+    Archive of Discoveries (AoD) is an instituancy that collects, 
+    archives, and catalogs artifacts relevant to humankind’s exploration 
+    of the uncharted territories of exospace.
+baseurl: "" 
+url: "" 
+
+# Build settings
+# plugins:
+#   - jekyll-feed
+
+exclude:
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - serve
+  - publish
+  - .git
+
