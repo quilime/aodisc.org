@@ -8,7 +8,7 @@
       <meta property="og:image" content="{{ site.url }}/static/aod-logo.png" />      
       <link rel="icon" href="{{ site.url }}/favicon.svg">
       {% assign ts = 'now' | date: "%s" %}
-      <title>{{ site.title }}{% if page.title != 'index' %} &gt; {{ page.title | downcase }}{% endif %}</title>
+      <title>AoD{% if page.title != 'index' %} / {{ page.title }}{% endif %}</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0, 
 user-scalable=no">      
       <link rel="stylesheet" href="{{ site.url }}/css/style.css?t={{ ts }}">
