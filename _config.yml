@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     of the uncharted territories of exospace.
 baseurl: "" 
 url: "" 
+permalink: /:title/
 
 # Build settings
 # plugins:

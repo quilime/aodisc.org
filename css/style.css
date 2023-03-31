@@ -67,6 +67,9 @@ h2, h3, h4, h5 {
     border-bottom:2px solid #FBF6D8;
     padding-bottom:0.25em;
 }
+h2 a {
+    text-decoration: none;
+}
 h1 {
     margin-top:0em;
     margin-bottom:1em;
